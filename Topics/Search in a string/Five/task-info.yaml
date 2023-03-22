@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: five.rfind("f")
+- text: five.count(" ")
+- text: "five.rindex(\"w\", 3, 5)"
+- text: five.find("t")
+- text: five.index("w")
+files:
+- name: main.py
+  visible: true
+  text: |+
+    #  You can experiment here, it won’t be checked
+
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/9559#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 19 Mar 2023 20:15:14 UTC"
+record: -1
+selected_options:
+- 1
+- 4
+local_check: false
